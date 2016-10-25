@@ -1,0 +1,12 @@
+/* ---------------------------------------------------------
+  Layout Stylesheet
+   ---------------------------------------------------------*/
+
+@media screen {
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}  /* Ende @media screen */
