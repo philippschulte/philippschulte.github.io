@@ -2,5 +2,7 @@
   Central Stylesheet
    ---------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+
 @import url('./layout.css');
 @import url('./header.css');
