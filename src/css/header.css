@@ -11,7 +11,7 @@
 
   .hero-text-box {
     position: absolute;
-    width: 1140px;
+    width: 114.0rem;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
@@ -20,12 +20,12 @@
   .main-nav {
     float: right;
     list-style: none;
-    margin-top: 55px;
+    margin-top: 5.5rem;
   }
 
   .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 4.0rem;
   }
 
   .main-nav li a:link,
@@ -33,15 +33,15 @@
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 90%;
-    padding-bottom: 8px;
-    border-bottom: 2px solid transparent;
+    font-size: 1.8rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 0.2rem solid transparent;
     transition: border-bottom 0.2s;
   }
 
   .main-nav li a:hover,
   .main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 0.2rem solid #e67e22;
   }
 
 }  /* Ende @media screen */
