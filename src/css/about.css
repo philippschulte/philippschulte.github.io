@@ -19,6 +19,6 @@
     text-align: left;
   }
 
-  .section-me p:last-child { margin-bottom: 0; }
+  .section-about p:last-child { margin-bottom: 0; }
 
 }  /* Ende @media screen */
