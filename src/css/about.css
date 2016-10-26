@@ -1,0 +1,24 @@
+/* ---------------------------------------------------------
+  About Stylesheet
+   ---------------------------------------------------------*/
+
+@media screen {
+
+  .section-about {
+    background-image: linear-gradient(rgba(56, 70, 77, 0.9), rgba(56, 70, 77, 0.9)), url(../img/about.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #eee;
+    text-align: center;
+  }
+
+  .section-about p {
+    width: 80%;
+    line-height: 1.8;
+    margin: 0 auto 2.5rem auto;
+    text-align: left;
+  }
+
+  .section-me p:last-child { margin-bottom: 0; }
+
+}  /* Ende @media screen */
