@@ -6,7 +6,7 @@
 
   .section-reviews {
     color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(../img/devmountain.jpg);
+    background-image: linear-gradient(rgba(56, 70, 77, 0.9), rgba(56, 70, 77, 0.9)), url(../img/devmountain.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
