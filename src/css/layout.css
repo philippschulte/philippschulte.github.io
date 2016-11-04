@@ -153,8 +153,8 @@
 
   .btn-ghost:link,
   .btn-ghost:visited {
-    border: 0.1rem solid #fff;
-    color: #fff;
+    border: 0.1rem solid #e67e22;
+    color: #e67e22;
   }
 
   .btn-full:hover,
@@ -167,8 +167,8 @@
 
   .btn-ghost:hover,
   .btn-ghost:active {
-    background-color: #e67e22;
-    border: 0.1rem solid #e67e22;
+    background-color: #cf6d17;
+    border: 0.1rem solid #cf6d17;
     color: #fff;
   }
 
