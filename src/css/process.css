@@ -1,0 +1,12 @@
+/* ---------------------------------------------------------
+  Process Stylesheet
+   ---------------------------------------------------------*/
+
+@media screen {
+
+  .section-process p {
+    font-size: 1.8rem;
+    line-height: 180%;
+  }
+
+}  /* Ende @media screen */
