@@ -16,8 +16,9 @@
     position: relative;
     padding: 2%;
     margin-top: 4.0rem;
+    font-size: 1.8rem;
     font-style: italic;
-    line-height: 145%;
+    line-height: 180%;
   }
 
   blockquote:before {
