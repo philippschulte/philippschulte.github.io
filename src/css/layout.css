@@ -180,6 +180,7 @@
 @media only screen and (max-width: 1023px) {
 
   html, body { font-size: 56.25%; }
+  section { padding: 6rem 0; }
 
   .long-copy {
     width: 80%;
