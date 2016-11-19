@@ -57,6 +57,12 @@
 
 /* Breakpoint for big tablets to desktop: from 1024 to 1200px */
 @media only screen and (max-width: 1200px) {
+
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
 } /* End @media only screen and (max-width: 1200px) */
 
 /* Breakpoint for small tablets to big tablets: from 768 to 1023px */

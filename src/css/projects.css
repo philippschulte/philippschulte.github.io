@@ -62,6 +62,12 @@
 
 /* Breakpoint for small tablets to big tablets: from 768 to 1023px */
 @media only screen and (max-width: 1023px) {
+
+  .project-box {
+    width: 100%;
+    margin-left: 0;
+  }
+
 } /* End @media only screen and (max-width: 1023px) */
 
 /* Breakpoint for small phones to small tablets: from 481 to 767px */
