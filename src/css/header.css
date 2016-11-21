@@ -18,6 +18,13 @@
     color: #fff;
   }
 
+  .logo {
+    height: 4rem;
+    width: auto;
+    float: left;
+    margin-top: 5rem;
+  }
+
   .hero-text-box {
     position: absolute;
     width: 114.0rem;
