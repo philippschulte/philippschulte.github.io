@@ -3,12 +3,6 @@
    ---------------------------------------------------------*/
 
 @media screen {
-
-  .section-process p {
-    font-size: 1.8rem;
-    line-height: 180%;
-  }
-
 }  /* End @media screen */
 
 /* Breakpoint for big tablets to desktop: from 1024 to 1200px */
