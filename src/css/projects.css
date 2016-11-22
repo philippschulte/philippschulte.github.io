@@ -8,9 +8,9 @@
     background-color: #f4f4f4;
   }
 
-  section-projects p {
+  .section-projects p {
     font-size: 1.8rem;
-    line-height: 145%;
+    line-height: 180%;
   }
 
   .project-box {
@@ -49,7 +49,6 @@
   }
 
   .project-job-description {
-    font-size: 80%;
     font-weight: bold;
     margin-bottom: 1.5rem;
   }
