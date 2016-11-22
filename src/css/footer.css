@@ -10,57 +10,33 @@
     font-size: 1.6rem;
   }
 
-  .footer-nav {
-    list-style: none;
-    float: left;
-  }
-
   .social-links {
     list-style: none;
-    float: right;
+    text-align: center;
   }
 
-  .footer-nav li,
   .social-links li {
     display: inline-block;
     margin-right: 2.0rem;
   }
 
-  .footer-nav li:last-child,
   .social-links li:last-child {
     margin-right: 0;
   }
 
-  .footer-nav li a:link,
-  .footer-nav li a:visited,
   .social-links li a:link,
   .social-links li a:visited {
     text-decoration: none;
+    font-size: 200%;
     border: 0;
     color: #888;
     transition: color 0.2s;
   }
 
-  .footer-nav li a:hover,
-  .footer-nav li a:active {
+  .social-links li a:hover,
+  .social-links li a:active {
     color: #ddd;
-  }
-
-  .social-links li a:link,
-  .social-links li a:visited {
-    font-size: 160%;
-  }
-
-  .ion-document-text,
-  .ion-social-github,
-  .ion-social-linkedin {
     transition: color 0.2s;
-  }
-
-  .ion-document-text:hover,
-  .ion-social-github:hover,
-  .ion-social-linkedin:hover {
-    color: #ddd;
   }
 
   footer p {
