@@ -27,8 +27,8 @@
   }
 
   .project-box img {
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 10rem;
   }
 
   .project-box div:first-child {
