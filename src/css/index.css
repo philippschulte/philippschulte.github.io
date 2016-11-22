@@ -3,7 +3,6 @@
    ---------------------------------------------------------*/
 
 /* ----- VENDORS -----*/
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
 @import url('./normalize.css');
 @import url('./grid.css');
 @import url('./ionicons.css');
@@ -19,3 +18,6 @@
 @import url('./projects.css');
 @import url('./form.css');
 @import url('./footer.css');
+
+/* ----- FONTS -----*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
