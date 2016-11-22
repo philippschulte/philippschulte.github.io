@@ -127,6 +127,7 @@
     padding: 1.0rem 3.0rem;
     font-weight: 300;
     font-size: 2.0rem;
+    line-height: normal;
     text-decoration: none;
     border-radius: 20.0rem;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
