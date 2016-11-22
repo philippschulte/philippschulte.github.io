@@ -15,15 +15,13 @@
   blockquote {
     position: relative;
     padding: 2%;
-    margin-top: 4.0rem;
-    font-size: 1.8rem;
+    margin-top: 2.0rem;
     font-style: italic;
-    line-height: 180%;
   }
 
   blockquote:before {
     position: absolute;
-    top: -0.5rem;
+    top: -7.0rem;
     left: -0.5rem;
     display: block;
     content: '\201C';
