@@ -178,6 +178,7 @@
 
   html, body { font-size: 59.375%; }
   section { padding: 7rem 0; }
+  .row { padding: 0 3%; }
 
 } /* End @media only screen and (max-width: 1023px) */
 
@@ -186,6 +187,7 @@
 
   html, body { font-size: 56.25%; }
   section { padding: 6rem 0; }
+  .row { padding: 0 4%; }
 
 } /* End @media only screen and (max-width: 767px) */
 
@@ -194,5 +196,6 @@
 
   html, body { font-size: 53.125%; }
   section { padding: 5rem 0; }
+  .row{ padding: 0 5%; }
 
 } /* End @media only screen and (max-width: 480px) */
