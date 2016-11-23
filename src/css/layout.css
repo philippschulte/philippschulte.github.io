@@ -197,5 +197,6 @@
   html, body { font-size: 53.125%; }
   section { padding: 5rem 0; }
   .row{ padding: 0 5%; }
+  .col { margin-bottom: 5%; }
 
 } /* End @media only screen and (max-width: 480px) */
