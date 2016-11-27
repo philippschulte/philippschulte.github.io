@@ -28,13 +28,14 @@
     opacity: 0.7;
     width: 100%;
     height: auto;
+    vertical-align: bottom;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
   }
 
   .robot-photo img:hover {
     opacity: 1;
-    transform: scale(1.04);
+    transform: scale(1);
   }
 
 }  /* End @media screen */
