@@ -5,9 +5,10 @@
 @media screen {
 
   .box img {
-      width: 100%;
-      height: auto;
-      margin-bottom: 1.5rem;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto 1.5rem auto;
   }
 
 }  /* End @media screen */
@@ -26,4 +27,12 @@
 
 /* Breakpoint for small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+
+  .box img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto 1.5rem auto;
+  }
+
 } /* End @media only screen and (max-width: 480px) */
