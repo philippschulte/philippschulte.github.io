@@ -20,25 +20,26 @@
     <header>
       <nav>
         <div class="row">
-          <img src="src/img/logo-white.png" alt="<PS/>" class="logo" />
+          <img src="src/img/logo-white.png" alt="<PS/>" class="logo-white" />
+          <img src="src/img/logo-black.png" alt="<PS/>" class="logo-black" />
 
           <ul class="main-nav">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Process</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="js-scroll-to-about">About</a></li>
+            <li><a href="#" class="js-scroll-to-process">Process</a></li>
+            <li><a href="#" class="js-scroll-to-projects">Work</a></li>
+            <li><a href="#" class="js-scroll-to-contact">Contact</a></li>
           </ul>
         </div>
       </nav>
 
       <div class="hero-text-box">
         <h1>Hi I'm Philipp.<br /> I build full-stack Web and Mobile apps.</h1>
-        <a href="#" class="btn btn-full">Contact</a>
+        <a href="#" class="btn btn-full js-scroll-to-contact">Contact</a>
         <a target="_blank" href="src/pdf/resume.pdf" class="btn btn-ghost">Resume</a>
       </div>
     </header>
 
-    <section class="section-about">
+    <section class="section-about js-section-about">
       <div class="row">
         <h2>Me, Myself, and I</h2>
         <p>
@@ -101,7 +102,7 @@
       </ul>
     </section>
 
-    <section class="section-process">
+    <section class="section-process js-section-process">
       <div class="row">
         <h2>Project Process</h2>
       </div>
@@ -192,7 +193,7 @@
       <div>
     </section>
 
-    <section class="section-projects">
+    <section class="section-projects js-section-projects">
       <div class="row">
         <h2>Projects I've Collaborated On &amp; Built</h2>
       </div>
@@ -256,7 +257,7 @@
       </div>
     </section>
 
-    <section class="section-contact">
+    <section class="section-contact js-section-contact">
       <div class="row">
         <h2>I'm happy to hear from you</h2>
       </div>
@@ -321,6 +322,7 @@
     </footer>
 
     <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/jquery.waypoints.min.js"></script>
     <script src="src/js/animations.js"></script>
   </body>
 </html>

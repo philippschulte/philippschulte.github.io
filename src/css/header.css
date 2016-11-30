@@ -18,12 +18,15 @@
     color: #fff;
   }
 
-  .logo {
+  .logo-white,
+  .logo-black {
     height: 4rem;
     width: auto;
     float: left;
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
+
+  .logo-black { display: none; }
 
   .hero-text-box {
     position: absolute;
@@ -33,6 +36,7 @@
     transform: translate(-50%, -50%);
   }
 
+  /* ----- MAIN NAVIGATION -----*/
   .main-nav {
     float: right;
     list-style: none;
@@ -58,6 +62,33 @@
   .main-nav li a:hover,
   .main-nav li a:active {
     border-bottom: 0.2rem solid #e67e22;
+  }
+
+  /* ----- STICKY NAVIGATION -----*/
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.2rem #efefef;
+  }
+
+  .sticky .main-nav { margin: 1.4rem 0; }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    color: #555;
+    padding-bottom: 1.2rem;
+  }
+
+  .sticky .logo-white { display: none; }
+
+  .sticky .logo-black {
+    display: block;
+    height: 3rem;
+    margin: 1rem 0;
   }
 
 }  /* End @media screen */
@@ -91,5 +122,5 @@
 @media only screen and (max-width: 480px) {
 
   .hero-text-box { padding: 0 5%; }
-  
+
 } /* End @media only screen and (max-width: 480px) */
