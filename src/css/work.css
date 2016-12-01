@@ -1,0 +1,73 @@
+/* ---------------------------------------------------------
+  Projects Stylesheet
+   ---------------------------------------------------------*/
+
+@media screen {
+
+  .section-work {
+    background-color: #f4f4f4;
+  }
+
+  .project-box {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 0.2rem 0.2rem #efefef;
+  }
+
+  .project-box div {
+    padding: 1.5rem;
+    border-bottom: 0.1rem solid #e8e8e8;
+  }
+
+  .project-box img {
+    width: auto;
+    height: 10rem;
+  }
+
+  .project-box div:first-child {
+    text-align: center;
+  }
+
+  .project-box div:last-child {
+    text-align: center;
+    border: 0;
+  }
+
+  .project-box ul {
+    list-style: none;
+  }
+
+  .project-box ul li {
+    padding: 0.5rem 0;
+  }
+
+  .project-job-description {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+
+}  /* End @media screen */
+
+/* Breakpoint for big tablets to desktop: from 1024 to 1200px */
+@media only screen and (max-width: 1200px) {
+} /* End @media only screen and (max-width: 1200px) */
+
+/* Breakpoint for small tablets to big tablets: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+
+  .project-box {
+    width: 100%;
+    margin-left: 0;
+  }
+
+} /* End @media only screen and (max-width: 1023px) */
+
+/* Breakpoint for small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+} /* End @media only screen and (max-width: 767px) */
+
+/* Breakpoint for small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+} /* End @media only screen and (max-width: 480px) */
