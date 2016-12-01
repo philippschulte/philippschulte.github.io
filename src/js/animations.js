@@ -25,9 +25,9 @@ $(document).ready(function() {
     }, 1000);
   });
 
-  $('.js-scroll-to-projects').click(function() {
+  $('.js-scroll-to-work').click(function() {
     $('html, body').animate({
-      scrollTop: $('.js-section-projects').offset().top
+      scrollTop: $('.js-section-work').offset().top
     }, 1000);
   });
 
