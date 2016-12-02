@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+  /* ----- TYPED HEADING -----*/
+  typer('h1', 100)
+  .line('Hi I\'m Philipp Schulte.')
+  .back(9, 100)
+  .continue('.')
+  .pause(1000)
+  .line('I build full-stack Web and Mobile apps.')
+  .run(function() {
+    $('.hero-text-box-buttons').fadeIn('slow');
+  });
+
   /* ----- STICKY NAVIGATION -----*/
   $('.js-section-about').waypoint(function(direction) {
     if (direction === 'down') {
