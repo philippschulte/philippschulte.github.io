@@ -13,6 +13,18 @@
 
 }  /* End @media screen */
 
+/* ----- ANIMATIONS -----*/
+@media screen {
+
+  .js-wp-tools {
+    opacity: 0;
+    animation-duration: 1s;
+  }
+
+  .js-wp-tools.animated { opacity: 1; }
+
+}
+
 /* ----- BREAKPOINTS -----*/
 
 /* Breakpoint for big tablets to desktop: from 1024 to 1200px */

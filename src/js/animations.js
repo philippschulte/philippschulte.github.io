@@ -71,4 +71,11 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  $('.js-wp-tools').waypoint(function(direction) {
+    $('.js-wp-tools').addClass('animated fadeIn');
+  },
+  {
+    offset: '50%'
+  });
+
 });
