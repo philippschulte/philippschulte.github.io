@@ -57,4 +57,11 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  $('.js-wp-process').waypoint(function(direction) {
+    $('.js-wp-process').addClass('animated pulse');
+  },
+  {
+    offset: '50%'
+  });
+
 });

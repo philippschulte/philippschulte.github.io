@@ -17,9 +17,13 @@
 /* ----- ANIMATIONS -----*/
 @media screen {
 
-  .js-wp-about { opacity: 0; }
+  .js-wp-about {
+    opacity: 0;
+    animation-duration: 1s;
+  }
+
   .js-wp-about.animated { opacity: 1; }
-  
+
 }
 
 /* ----- BREAKPOINTS -----*/
