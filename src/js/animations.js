@@ -25,64 +25,34 @@ $(document).ready(function() {
   });
 
   /* ----- LINK BUTTON SCROLLING -----*/
-  $('.js-scroll-to-about').click(function() {
-    $('html, body').animate({
-      scrollTop: $('.js-section-about').offset().top
-    }, 1000);
-  });
-
-  $('.js-scroll-to-process').click(function() {
-    $('html, body').animate({
-      scrollTop: $('.js-section-process').offset().top
-    }, 1000);
-  });
-
-  $('.js-scroll-to-work').click(function() {
-    $('html, body').animate({
-      scrollTop: $('.js-section-work').offset().top
-    }, 1000);
-  });
-
-  $('.js-scroll-to-contact').click(function() {
-    $('html, body').animate({
-      scrollTop: $('.js-section-contact').offset().top
-    }, 1000);
-  });
+  onClickScrollingToSection('.js-scroll-to-about', '.js-section-about');
+  onClickScrollingToSection('.js-scroll-to-process', '.js-section-process');
+  onClickScrollingToSection('.js-scroll-to-work', '.js-section-work');
+  onClickScrollingToSection('.js-scroll-to-contact', '.js-section-contact');
 
   /* ----- ANIMATIONS ON SCROLL -----*/
-  $('.js-wp-about').waypoint(function(direction) {
-    $('.js-wp-about').addClass('animated fadeIn');
-  },
-  {
-    offset: '50%'
-  });
-
-  $('.js-wp-process').waypoint(function(direction) {
-    $('.js-wp-process').addClass('animated pulse');
-  },
-  {
-    offset: '50%'
-  });
-
-  $('.js-wp-testimonials').waypoint(function(direction) {
-    $('.js-wp-testimonials').addClass('animated bounce');
-  },
-  {
-    offset: '50%'
-  });
-
-  $('.js-wp-tools').waypoint(function(direction) {
-    $('.js-wp-tools').addClass('animated fadeIn');
-  },
-  {
-    offset: '50%'
-  });
-
-  $('.js-wp-work').waypoint(function(direction) {
-    $('.js-wp-work').addClass('animated pulse');
-  },
-  {
-    offset: '50%'
-  });
+  animateOnScroll('.js-wp-about', 'fadeIn');
+  animateOnScroll('.js-wp-process', 'pulse');
+  animateOnScroll('.js-wp-testimonials', 'bounce');
+  animateOnScroll('.js-wp-tools', 'fadeIn');
+  animateOnScroll('.js-wp-work', 'pulse');
 
 });
+
+/* ----- HELPER FUNCTIONS -----*/
+function onClickScrollingToSection(button, section) {
+  $(button).click(function() {
+    $('html, body').animate({
+      scrollTop: $(section).offset().top
+    }, 1000);
+  });
+}
+
+function animateOnScroll(waypoint, animation, offset) {
+  $(waypoint).waypoint(function(direction) {
+    $(waypoint).addClass('animated' + ' ' + animation);
+  },
+  {
+    offset: '50%'
+  });
+}
