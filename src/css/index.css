@@ -5,8 +5,9 @@
 /* ----- VENDORS -----*/
 @import url('./normalize.css');
 @import url('./grid.css');
-@import url('./ionicons.css');
 @import url('./typer.css');
+@import url('./animate.css');
+@import url('./ionicons.css');
 
 /* ----- RESOURCES -----*/
 @import url('./layout.css');

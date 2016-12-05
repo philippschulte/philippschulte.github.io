@@ -49,4 +49,12 @@ $(document).ready(function() {
     }, 1000);
   });
 
+  /* ----- ANIMATIONS ON SCROLL -----*/
+  $('.js-wp-about').waypoint(function(direction) {
+    $('.js-wp-about').addClass('animated fadeIn');
+  },
+  {
+    offset: '50%'
+  });
+
 });

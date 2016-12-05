@@ -14,6 +14,16 @@
 
 }  /* End @media screen */
 
+/* ----- ANIMATIONS -----*/
+@media screen {
+
+  .js-wp-about { opacity: 0; }
+  .js-wp-about.animated { opacity: 1; }
+  
+}
+
+/* ----- BREAKPOINTS -----*/
+
 /* Breakpoint for big tablets to desktop: from 1024 to 1200px */
 @media only screen and (max-width: 1200px) {
 } /* End @media only screen and (max-width: 1200px) */

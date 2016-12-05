@@ -40,6 +40,8 @@
 
 }  /* End @media screen */
 
+/* ----- BREAKPOINTS -----*/
+
 /* Breakpoint for big tablets to desktop: from 1024 to 1200px */
 @media only screen and (max-width: 1200px) {
 } /* End @media only screen and (max-width: 1200px) */
