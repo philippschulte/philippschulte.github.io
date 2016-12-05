@@ -64,4 +64,11 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  $('.js-wp-testimonials').waypoint(function(direction) {
+    $('.js-wp-testimonials').addClass('animated bounce');
+  },
+  {
+    offset: '50%'
+  });
+
 });
