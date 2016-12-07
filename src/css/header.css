@@ -66,6 +66,19 @@
     border-bottom: 0.2rem solid #e67e22;
   }
 
+  /* ----- MOBILE NAVIGATION -----*/
+  .hamburger {
+    float: right;
+    margin-top: 3.0rem;
+    cursor: pointer;
+    display: none;
+  }
+
+  .hamburger i {
+    font-size: 3.6rem;
+    color: #fff;
+  }
+
   /* ----- STICKY NAVIGATION -----*/
   .sticky {
     position: fixed;
@@ -77,7 +90,7 @@
     box-shadow: 0 0.2rem 0.2rem #efefef;
   }
 
-  .sticky .main-nav { margin: 1.4rem 0; }
+  .sticky .main-nav { margin: 2.1rem 0; }
 
   .sticky .main-nav li a:link,
   .sticky .main-nav li a:visited {
@@ -90,7 +103,7 @@
   .sticky .logo-black {
     display: block;
     height: 3rem;
-    margin: 1rem 0;
+    margin: 1.7rem 0;
   }
 
 }  /* End @media screen */
@@ -118,7 +131,30 @@
 @media only screen and (max-width: 767px) {
 
   .hero-text-box { padding: 0 4%; }
-  .main-nav { display: none; }
+  .hamburger { display: inline-block; }
+
+  .main-nav {
+    display: none;
+    margin: 4rem 4rem 0 0;
+  }
+
+  .main-nav li { display: block; }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    padding-bottom: 2.0rem;
+    border-bottom: 0;
+  }
+
+  .sticky .main-nav {
+    margin-right: 4.0rem;
+    margin-bottom: 0;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited { padding-bottom: 2.0rem; }
+  .sticky .hamburger { margin: 1.03rem 0; }
+  .sticky .hamburger i { color: #555; }
 
 } /* End @media only screen and (max-width: 767px) */
 
