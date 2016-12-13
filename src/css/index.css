@@ -3,11 +3,11 @@
    ---------------------------------------------------------*/
 
 /* ----- VENDORS -----*/
-@import url('./normalize.css');
-@import url('./grid.css');
-@import url('./typer.css');
-@import url('./animate.css');
-@import url('./ionicons.css');
+@import url('./libraries/normalize.css');
+@import url('./libraries/grid.css');
+@import url('./libraries/typer.css');
+@import url('./libraries/animate.css');
+@import url('./libraries/ionicons.css');
 
 /* ----- RESOURCES -----*/
 @import url('./layout.css');
