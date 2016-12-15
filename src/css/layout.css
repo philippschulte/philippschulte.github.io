@@ -104,22 +104,6 @@
     margin-top: -0.5rem;
   }
 
-  /* ----- LINKS -----*/
-  a:link,
-  a:visited {
-    text-decoration: none;
-    color: #e67e22;
-    padding-bottom: 0.1rem;
-    border-bottom: 0.1rem solid #e67e22;
-    transition: border-bottom 0.2s, color 0.2s;
-  }
-
-  a:hover,
-  a:active {
-    color: #555;
-    border-bottom: 0.1rem solid transparent;
-  }
-
   /* ----- BUTTONS -----*/
   .btn:link,
   .btn:visited,
