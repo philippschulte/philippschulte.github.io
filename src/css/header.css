@@ -5,11 +5,6 @@
 @media screen {
 
   header {
-    height: 100vh;
-    background-color: #26afeb;
-  }
-
-  header {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/me.jpg);
     background-size: cover;
     background-position: center;
