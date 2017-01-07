@@ -25,16 +25,33 @@ $(document).ready(function() {
   });
 
   /* ----- MOBILE NAVIGATION -----*/
-  $('.js-hamburger').click(function() {
+  $('.js-hamburger, .js-main-nav a').click(function() {
     var icon = $('.js-hamburger i');
     var nav = $('.js-main-nav');
 
-    nav.slideToggle(200);
+    if ($(window).width() < 767) {
+      nav.slideToggle(200);
 
-    if (icon.hasClass('ion-navicon-round')) {
+      if (icon.hasClass('ion-navicon-round')) {
+        icon.addClass('ion-close-round');
+        icon.removeClass('ion-navicon-round');
+      } else {
+        icon.addClass('ion-navicon-round');
+        icon.removeClass('ion-close-round');
+      }
+    }
+  });
+
+  $(window).resize(function() {
+    var icon = $('.js-hamburger i');
+    var nav = $('.js-main-nav');
+
+    if ($(window).width() > 767) {
+      nav.css("display", "block");
       icon.addClass('ion-close-round');
       icon.removeClass('ion-navicon-round');
     } else {
+      nav.css("display", "none");
       icon.addClass('ion-navicon-round');
       icon.removeClass('ion-close-round');
     }
