@@ -81,7 +81,7 @@ function onClickScrollingToSection(button, section) {
   });
 }
 
-function animateOnScroll(waypoint, animation, offset) {
+function animateOnScroll(waypoint, animation) {
   $(waypoint).waypoint(function(direction) {
     $(waypoint).addClass('animated' + ' ' + animation);
   },
